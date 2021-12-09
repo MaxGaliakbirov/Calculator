@@ -1,0 +1,32 @@
+*******************
+android:graviry="end" текст прижат правому краю
+*******************
+android:ellipsize="start" старый текст будет обрезаться, если он не помещается в сторке. если укзать "end", то будет обрезаться новый текст.
+*******************
+android:singleLine="true" весь текст будет помещаться в одну строку
+*******************
+*******************
+*******************
+*******************
+*******************
+*******************
+*******************
+*******************
+*******************
+*******************
+*******************
+
+
+<LinearLayout
+ android:layout_width="match_parent"
+ android:orientation="vertical"
+ android:layout_height="match_parent"
+ </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+        </LinearLayout>
