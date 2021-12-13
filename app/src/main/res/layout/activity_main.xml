@@ -98,7 +98,7 @@
                 android:text="4"
                 />
             <TextView
-                android:id="@+id/five_butto"
+                android:id="@+id/five_button"
                 style="@style/ActionButton"
                 android:text="5"
                 />
