@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         multiply_button.setOnClickListener { setTextFields("*") }
         plus_button.setOnClickListener { setTextFields("+") }
         minus_button.setOnClickListener { setTextFields("-") }
+        dot_button.setOnClickListener { setTextFields(".") }
         //очищаем поля
         ac_button.setOnClickListener {
             math_operation.text = ""
@@ -59,6 +60,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun setTextFields(str: String){
+        if(result_text.text != "") {
+            math_operation.text = result_text.text
+            result_text.text = ""
+        }
         math_operation.append(str)
     }
 }
